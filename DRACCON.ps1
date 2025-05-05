@@ -11,6 +11,6 @@ $info += "Endereço IP: $((Get-NetIPAddress | Where-Object {$_.AddressFamily -eq
 
 # Caminho do arquivo
 $caminho = "$env:USERPROFILE\Desktop\info_pc.txt"
-$info | Out-File -FilePath $caminho -Encoding UTF8
+$info | Out-File -FilePath $caminho -Encoding Default
 
 Write-Host "Arquivo gerado em: $caminho"
