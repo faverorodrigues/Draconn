@@ -13,7 +13,7 @@ Ferramenta leve de diagnóstico e inventário de hardware. Realiza a coleta auto
 
 2.   **Copie e cole o código abaixo, e pressione enter.**  
 ```
-irm https://draccon.faverorodrigues.com.br | iex
+irm https://faverorodrigues.github.io/Draconn/DRACCON.cmd | iex
 ```
 
 3.    Pronto.
